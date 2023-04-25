@@ -46,7 +46,7 @@ public class Main {
                     indice = scanner.nextInt();
                     scanner.nextLine();
                     if (indice < 0 || indice >= productos.size()) {
-                        System.out.println("Índice no válido");
+                        System.out.println("Index no válido");
                     } else {
                         System.out.print("Nuevo nombre del producto (deja vacío para no modificar): ");
                         String nuevoNombre = scanner.nextLine();
